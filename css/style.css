@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    font-family: -webkit-pictograph;
+}
+body{
+    background: url(https://wallpaperaccess.com/full/170249.jpg) 0 0/cover no-repeat;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #0fa3f7;
+    margin-bottom: 30px;
+}
+header .container{
+    color: #fff;
+    box-sizing: border-box;
+    padding: 19px 0px;
+    display: flex;
+    justify-content:space-between;
+}
+header .container h1 i{
+    margin-right: 10px;
+    color:#f7c200;
+}
+header .container #add_location{
+    border:1px solid #fff;
+    background-color: transparent;
+    color:#fff;
+    padding:10px;
+    cursor: pointer;
+    font-size: 14px;
+    outline: none;
+}
+header .container #add_location:hover{
+    background-color: #fff;
+    color:#000;
+}
+header .container #add_location i{
+    margin-right: 10px;
+}
+
+.content{
+    display:flex;
+    flex-wrap: wrap;
+}
+.content .card{
+    width: 242.5px;
+    box-sizing: border-box;
+    background-color: rgba(15, 163, 247, 0.7);
+    padding: 10px 20px;
+    margin: 0 10px 20px 0;
+    border-radius:10px;
+}
+.content .card:nth-of-type(4n+0){margin-right: 0;}
+.content .card .title{
+    width: 100%;
+    display:flex;
+    justify-content:space-between;
+}
+.content .card .title h2{
+    font-size: 25px;
+}
+.content .card .title i{
+    color:#9c0505; 
+    cursor:pointer;
+}
+.content .card .title i:hover{
+    opacity:60%;
+}
+.content .card .info .temperature{
+    font-size: 50px;
+}
