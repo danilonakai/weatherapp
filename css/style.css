@@ -35,17 +35,16 @@ header .container form input{
     font-size: 14px;
 }
 header .container #add_location{
-    border:1px solid #fff;
-    background-color: transparent;
-    color:#fff;
-    padding:10px;
+    background-color: #0b70a9;
+    color: #fff;
+    padding: 11px;
     cursor: pointer;
     font-size: 14px;
     outline: none;
+    border:none;
 }
 header .container #add_location:hover{
-    background-color: #fff;
-    color:#000;
+    background-color: #034265;
 }
 header .container #add_location i{
     margin-right: 10px;
@@ -95,4 +94,8 @@ header .container #add_location i{
 .content .card .info figure figcaption{
     font-size: 20px;
     text-align: center;
+}
+.initial_message{
+    font-size: 20px;
+    font-family: system-ui;
 }
