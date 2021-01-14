@@ -1,9 +1,5 @@
 *{
     margin: 0;
-    font-family: -webkit-pictograph;
-}
-body{
-    background: url(https://wallpaperaccess.com/full/170249.jpg) 0 0/cover no-repeat;
 }
 .container{
     max-width: 1000px;
@@ -23,9 +19,20 @@ header .container{
     display: flex;
     justify-content:space-between;
 }
+header .container h1{
+    font-family: -webkit-pictograph;
+}
 header .container h1 i{
     margin-right: 10px;
     color:#f7c200;
+}
+header .container form input{
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 10px 10px;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
 }
 header .container #add_location{
     border:1px solid #fff;
@@ -49,14 +56,15 @@ header .container #add_location i{
     flex-wrap: wrap;
 }
 .content .card{
-    width: 242.5px;
+    width: 490px;
     box-sizing: border-box;
     background-color: rgba(15, 163, 247, 0.7);
-    padding: 10px 20px;
-    margin: 0 10px 20px 0;
-    border-radius:10px;
+    padding: 20px;
+    margin: 0 20px 20px 0;
+    border-radius:5px;
+    font-family: system-ui;
 }
-.content .card:nth-of-type(4n+0){margin-right: 0;}
+.content .card:nth-of-type(2n+0){margin-right: 0;}
 .content .card .title{
     width: 100%;
     display:flex;
@@ -66,12 +74,25 @@ header .container #add_location i{
     font-size: 25px;
 }
 .content .card .title i{
-    color:#9c0505; 
-    cursor:pointer;
+    color: #fff;
+    cursor: pointer;
 }
 .content .card .title i:hover{
     opacity:60%;
 }
+.content .card .info{
+    display: flex;
+    justify-content: space-between;
+}
 .content .card .info .temperature{
     font-size: 50px;
+    padding-top:50px;
+}
+.content .card .info figure img{
+    display: block;
+    margin: 0 auto;
+}
+.content .card .info figure figcaption{
+    font-size: 20px;
+    text-align: center;
 }
